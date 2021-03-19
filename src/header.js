@@ -28,14 +28,14 @@ function createHeader() {
     if (i == 1) input.checked = true;
 
     let label = document.createElement("label");
-    label.for = `tab-${i}`;
+    label.htmlFor = `tab-${i}`;
     if (i == 1) label.textContent = "Home";
     if (i == 2) label.textContent = "Menu";
     if (i == 3) label.textContent = "Contact";
 
     tab.appendChild(input);
     tab.appendChild(label);
-    nav.appendChild(nav);
+    nav.appendChild(tab);
   }
 
   container.appendChild(nav);

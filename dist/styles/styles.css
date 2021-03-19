@@ -53,16 +53,14 @@ header .header-container {
   color: #1d1d1d;
 }
 .tab [type=radio] {
-	display: none;   
+	position: fixed;
+  opacity: 0;
+  pointer-events: none; 
 }
 [type=radio]:checked ~ label {
 	border-bottom: 2px solid #1d1d1d;
 	color: #1d1d1d;
 	z-index: 2;
-}
-[type=radio]:checked ~ label ~ .tab__content {
-	z-index: 1;
-	opacity: 1;
 }
 hr {
   overflow: visible;
