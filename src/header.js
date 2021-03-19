@@ -39,6 +39,8 @@ function createHeader() {
   }
 
   container.appendChild(nav);
+
+  return header;
 }
 
 export default createHeader;
