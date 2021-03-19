@@ -12,7 +12,8 @@ Project of restaurant page from [The Odin Project](https://www.theodinproject.co
 
 ### **Side notes**
 * Learned how to generate whole page using only **JavaScript**
-* Learned about how to use JavaScript **ES6 modules**
+* Learned how to create animated tab navigation bar
+* Learned how to use JavaScript **ES6 modules**
 * Learned how to work with **npm**
 * Learned how to work with **webpack**
   
