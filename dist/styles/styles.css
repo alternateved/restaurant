@@ -40,18 +40,29 @@ header .header-container {
 	align-items: center;
 	justify-content: space-between;
 }
-nav ul {
-	margin: 1rem 0 .5rem;
-	text-align: center;
+.tabs {
+  display: flex;
+  padding-top: 2rem;
 }
-nav li {
-	display: inline;
+.tab label {
+	margin-right: 20px;
+  font-size: calc(0.8rem + 0.7vw);
+	position: relative;
+	top: 0;
+	cursor: pointer;
+  color: #1d1d1d;
 }
-nav a {
-	display: inline-block;
-  text-decoration: none;
-  color: var(--black);
-	padding: .5rem 1.5rem;
+.tab [type=radio] {
+	display: none;   
+}
+[type=radio]:checked ~ label {
+	border-bottom: 2px solid #1d1d1d;
+	color: #1d1d1d;
+	z-index: 2;
+}
+[type=radio]:checked ~ label ~ .tab__content {
+	z-index: 1;
+	opacity: 1;
 }
 hr {
   overflow: visible;
@@ -96,7 +107,7 @@ img {
   padding: 1rem;
 }
 .home > h2 {
-  padding-bottom: 4rem
+  padding-bottom: 1rem
 }
 .home-text {
   padding: 1rem;
@@ -127,8 +138,8 @@ footer a {
 	main {
 		flex-direction: row;
 	}
-  .inside {
-    padding: 4rem;
+  .home > h2 {
+    padding-bottom: 4rem
   }
   .left-sidebar {
     padding-left: 4rem;
