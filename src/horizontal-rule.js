@@ -1,4 +1,4 @@
-function createHR () {
+function createHR() {
   return document.createElement("hr");
 }
 
