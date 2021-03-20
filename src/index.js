@@ -7,9 +7,9 @@ import createHome from "./home";
 
 const mainContent = document.querySelector("#content");
 
-mainContent.appendChild(createHeader());
-mainContent.appendChild(createHR());
-mainContent.appendChild(createHome());
-mainContent.appendChild(createHR());
-mainContent.appendChild(createFooter());
+//mainContent.appendChild(createHeader());
+//mainContent.appendChild(createHR());
+//mainContent.appendChild(createHome());
+//mainContent.appendChild(createHR());
+//mainContent.appendChild(createFooter());
 
