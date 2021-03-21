@@ -176,7 +176,7 @@ footer a {
     padding-bottom: 4rem
   }
   .menu {
-    background-size: cover;
+    background-size: contain;
   }
   .left-sidebar {
     padding-left: 4rem;
