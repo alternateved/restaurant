@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 :root {
   --black: #171515;
   --dark-gray: #323234;
-  --gray: #646A75;
-  --light-gray: #8C909A;
-  --white: #E0E2E5;
+  --gray: #646a75;
+  --light-gray: #8c909a;
+  --white: #e0e2e5;
 }
 * {
   margin: 0;
@@ -14,16 +14,16 @@
 }
 #content {
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: calc(0.7rem + 0.7vw);
   line-height: calc(1.1rem + 0.5vw);
   color: var(--black);
 }
 .header-container {
-	width: 1200px;
-	max-width: 100%;
+  width: 1200px;
+  max-width: 100%;
   padding-bottom: 2rem;
-	margin: 0;
+  margin: 0;
 }
 h1 {
   display: flex;
@@ -37,32 +37,32 @@ h1 {
   box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 header .header-container {
-	display: flex;
+  display: flex;
   flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .tabs {
   display: flex;
   padding-top: 2rem;
 }
 .tab label {
-	margin-right: 20px;
+  margin-right: 20px;
   font-size: calc(0.8rem + 0.7vw);
-	position: relative;
-	top: 0;
-	cursor: pointer;
+  position: relative;
+  top: 0;
+  cursor: pointer;
   color: #1d1d1d;
 }
-.tab [type=radio] {
-	position: fixed;
+.tab [type="radio"] {
+  position: fixed;
   opacity: 0;
-  pointer-events: none; 
+  pointer-events: none;
 }
-[type=radio]:checked ~ label {
-	border-bottom: 2px solid #1d1d1d;
-	color: #1d1d1d;
-	z-index: 2;
+[type="radio"]:checked ~ label {
+  border-bottom: 2px solid #1d1d1d;
+  color: #1d1d1d;
+  z-index: 2;
 }
 hr {
   overflow: visible;
@@ -94,12 +94,12 @@ main {
   align-items: center;
 }
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
   box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .home {
-	flex: 1 1 auto;
+  flex: 1 1 auto;
   padding: 0.5rem;
 }
 .home > * {
@@ -107,7 +107,7 @@ img {
   padding: 1rem;
 }
 .home > h2 {
-  padding-bottom: 1rem
+  padding-bottom: 1rem;
 }
 .home-text {
   padding: 1rem;
@@ -118,16 +118,17 @@ img {
 }
 .left-sidebar {
   padding: 1rem;
-	order: -1;
+  order: -1;
 }
 .menu {
   flex: 1 1 auto;
   padding: 0.5rem;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   background: linear-gradient(
-    rgba(255, 255, 255, 0.60), 
-    rgba(255, 255, 255, 0.60)),
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
     url("../images/cupcakes.jpg");
   box-shadow: 0 0 15px 15px white inset;
   background-size: cover;
@@ -135,7 +136,7 @@ img {
   background-repeat: no-repeat;
 }
 .menu > * {
-  padding: 1rem;;
+  padding: 1rem;
 }
 .menu-title {
   text-align: center;
@@ -154,6 +155,42 @@ img {
   padding: 1rem;
   order: 1;
 }
+.contact {
+  flex: 1 1 auto;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-title {
+  text-align: center;
+  padding-bottom: 3rem;
+  text-transform: uppercase;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(0.9rem + 0.7vw);
+  padding: 2rem;
+}
+.contact-text > p, .contact-text > h3{
+  padding: 0.5rem;
+}
+.map {
+  height: 100%;
+  order: 1;
+  padding: 0rem;
+}
+.map iframe {
+  border: 0;
+}
 footer {
   display: flex;
   align-items: center;
@@ -169,11 +206,11 @@ footer a {
   header .header-container {
     flex-direction: row;
   }
-	main {
-		flex-direction: row;
-	}
+  main {
+    flex-direction: row;
+  }
   .home > h2 {
-    padding-bottom: 4rem
+    padding-bottom: 4rem;
   }
   .menu {
     background-size: contain;
@@ -184,3 +221,11 @@ footer a {
   .sidebar {
     flex: 1 1 100vw;
   }
+  .contact-container {
+    flex-direction: row;
+  }
+  .map {
+    flex: 1 1 100vw;
+    padding: 3rem;
+  }
+}
