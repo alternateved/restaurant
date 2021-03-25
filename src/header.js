@@ -15,7 +15,7 @@ function createHeader() {
   title.appendChild(logo);
 
   const nav = document.createElement("nav");
-  nav.classList.add("tabs");
+  nav.classList.add("tabs"); 
 
   for (let i = 1; i <= 3; i++) {
     let tab = document.createElement("div");
