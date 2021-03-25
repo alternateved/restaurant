@@ -24,6 +24,7 @@
   max-width: 100%;
   padding-bottom: 2rem;
   margin: 0;
+  user-select: none;
 }
 h1 {
   display: flex;
@@ -92,6 +93,7 @@ main {
 }
 main {
   align-items: center;
+  animation: appear 2s;
 }
 img {
   max-width: 100%;
@@ -202,6 +204,16 @@ footer {
 footer a {
   color: var(--black);
   text-decoration: none;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 768px) {

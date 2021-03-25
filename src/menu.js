@@ -1,6 +1,9 @@
 function createMenu() {
+  const main = document.createElement("main");
+
   const menu = document.createElement("section");
   menu.classList.add("menu");
+  main.appendChild(menu);
 
   const titleDiv = document.createElement("div");
   titleDiv.classList.add("menu-title");
@@ -49,7 +52,7 @@ function createMenu() {
     textDiv.appendChild(row);
     menu.appendChild(textDiv);
   }
-  return menu;
+  return main;
 }
 
 export default createMenu;

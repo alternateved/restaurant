@@ -1,6 +1,9 @@
 function createContact() {
+  const main = document.createElement("main");
+
   const contact = document.createElement("section");
   contact.classList.add("contact");
+  main.appendChild(contact);
 
   const titleDiv = document.createElement("div");
   titleDiv.classList.add("contact-title");
@@ -61,7 +64,7 @@ function createContact() {
   frame.loading = "lazy";
   location.appendChild(frame);
 
-  return contact;
+  return main;
 }
 
 export default createContact;
