@@ -2,7 +2,7 @@
 
 Project of restaurant page from [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) using mostly **JavaScript**, **HTML** and **CSS**.
 
-**Live preview** of the project is available [here]().
+**Live preview** of the project is available [here](https://alternateved.github.io/restaurant/).
 
 ![Demo](/dist/images/peek.gif)
 
