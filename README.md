@@ -4,7 +4,7 @@ Project of restaurant page from [The Odin Project](https://www.theodinproject.co
 
 **Live preview** of the project is available [here]().
 
-![Demo]()
+![Demo](/dist/images/peek.gif)
 
 
 ## **Features**
