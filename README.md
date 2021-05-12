@@ -8,19 +8,19 @@ Project of restaurant page from [The Odin Project](https://www.theodinproject.co
 
 
 ## **Features**
-* Website is **dynamically created** with JavaScript
-* Each transition is slightly **animated**
-* Contact page contains **Google Map** with location of restaurant
-* Website is **mobile responsive**
+* website is **dynamically created** with JavaScript
+* each transition is slightly **animated**
+* contact page contains **Google Map** with location of restaurant
+* website is **mobile responsive**
 
 ### **Side notes**
-* Learned how to generate whole page using only **JavaScript**
-* Learned how to create **animated tab navigation bar**
-* Learned how to use JavaScript **ES6 modules**
-* Learned how to work with **npm**
-* Learned how to work with **webpack**
-* Learned how to add background image with **overlay** and **blur edges**
-* Learned how to create simple logo with Gimp
+* learned how to generate whole page using only **JavaScript**
+* learned how to create **animated tab navigation bar**
+* learned how to use JavaScript **ES6 modules**
+* learned how to work with **npm**
+* learned how to work with **webpack**
+* learned how to add background image with **overlay** and **blur edges**
+* learned how to create simple logo with Gimp
   
 ### **Tools:**
 * Visual Studio Code
