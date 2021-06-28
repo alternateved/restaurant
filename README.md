@@ -22,7 +22,7 @@ Project of restaurant page from [The Odin Project](https://www.theodinproject.co
 * learned how to add background image with **overlay** and **blur edges**
 * learned how to create simple logo with Gimp
   
-### **Tools:**
+### **Tools**
 * Visual Studio Code
 * Linux terminal
 * npm
@@ -31,5 +31,5 @@ Project of restaurant page from [The Odin Project](https://www.theodinproject.co
 * Gimp
 
 
-### **Third party code:**
+### **Third party code**
 * [Google Fonts](https://fonts.google.com/)
